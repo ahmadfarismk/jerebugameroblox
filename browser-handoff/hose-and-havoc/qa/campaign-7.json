@@ -1,0 +1,2730 @@
+{
+  "seed": 7,
+  "commands": [
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        25
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "foam",
+      "route": [
+        32,
+        31
+      ]
+    },
+    {
+      "type": "play",
+      "card": "emergency",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "emergency",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "buy",
+      "upgrade": "tower"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "wind",
+      "route": []
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20
+      ]
+    },
+    {
+      "type": "play",
+      "card": "emergency",
+      "route": [
+        32,
+        26,
+        20,
+        14
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        21
+      ]
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        27
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "wind",
+      "route": []
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        33
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14
+      ]
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "foam",
+      "route": [
+        32,
+        31,
+        30
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "buy",
+      "upgrade": "kitchen"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        25
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "buy",
+      "upgrade": "shelter"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        32,
+        26
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        32,
+        26
+      ]
+    },
+    {
+      "type": "play",
+      "card": "rescue",
+      "route": [],
+      "target": 17
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        32,
+        26
+      ]
+    },
+    {
+      "type": "play",
+      "card": "rescue",
+      "route": [],
+      "target": 17
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        32,
+        26
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        32,
+        26
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        35,
+        29,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        35,
+        29,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        35,
+        29,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        35,
+        29,
+        28
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "soak",
+      "route": [
+        35,
+        29,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        9
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        9
+      ]
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "wind",
+      "route": []
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        21
+      ]
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        27
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "rescue",
+      "route": [],
+      "target": 17
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        33
+      ]
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "continue"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        7
+      ]
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        2
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        13
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        7
+      ]
+    },
+    {
+      "type": "play",
+      "card": "emergency",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        13,
+        12
+      ]
+    },
+    {
+      "type": "play",
+      "card": "rescue",
+      "route": [],
+      "target": 17
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        13,
+        12
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        2
+      ]
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        15
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "emergency",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        7
+      ]
+    },
+    {
+      "type": "refill"
+    },
+    {
+      "type": "play",
+      "card": "emergency",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        7
+      ]
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "play",
+      "card": "spray",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "type": "play",
+      "card": "burst",
+      "route": [
+        32,
+        26,
+        20,
+        14,
+        8,
+        2
+      ]
+    }
+  ],
+  "final": {
+    "version": 2,
+    "mode": "campaign",
+    "day": 7,
+    "totalTurns": 35,
+    "history": [
+      {
+        "day": 1,
+        "period": "day",
+        "turns": 1,
+        "integrity": 5,
+        "api": 12,
+        "summary": "Welcome to the kampung. cleared."
+      },
+      {
+        "day": 1,
+        "period": "night",
+        "turns": 1,
+        "integrity": 5,
+        "api": 14,
+        "summary": "Malam 1 survived: 0 integrity lost; +2 Camp Fund. API 14."
+      },
+      {
+        "day": 2,
+        "period": "day",
+        "turns": 4,
+        "integrity": 5,
+        "api": 42,
+        "summary": "A chain of good deeds. cleared."
+      },
+      {
+        "day": 2,
+        "period": "night",
+        "turns": 1,
+        "integrity": 5,
+        "api": 26,
+        "summary": "Malam 2 survived: 0 integrity lost; +2 Camp Fund. API 26."
+      },
+      {
+        "day": 3,
+        "period": "day",
+        "turns": 2,
+        "integrity": 5,
+        "api": 64,
+        "summary": "Bara Bebola cleared."
+      },
+      {
+        "day": 3,
+        "period": "night",
+        "turns": 1,
+        "integrity": 4,
+        "api": 74,
+        "summary": "Malam 3 survived: 1 integrity lost; +1 Camp Fund. API 74."
+      },
+      {
+        "day": 4,
+        "period": "day",
+        "turns": 2,
+        "integrity": 5,
+        "api": 28,
+        "summary": "Under the roots. cleared."
+      },
+      {
+        "day": 4,
+        "period": "night",
+        "turns": 1,
+        "integrity": 4,
+        "api": 38,
+        "summary": "Malam 4 survived: 1 integrity lost; +1 Camp Fund. API 38."
+      },
+      {
+        "day": 5,
+        "period": "day",
+        "turns": 16,
+        "integrity": 5,
+        "api": 60,
+        "summary": "Gambut Gempal cleared."
+      },
+      {
+        "day": 5,
+        "period": "night",
+        "turns": 1,
+        "integrity": 4,
+        "api": 70,
+        "summary": "Malam 5 survived: 1 integrity lost; +1 Camp Fund. API 70."
+      },
+      {
+        "day": 6,
+        "period": "day",
+        "turns": 3,
+        "integrity": 5,
+        "api": 52,
+        "summary": "Against the wind. cleared."
+      },
+      {
+        "day": 6,
+        "period": "night",
+        "turns": 1,
+        "integrity": 4,
+        "api": 62,
+        "summary": "Malam 6 survived: 1 integrity lost; +1 Camp Fund. API 62."
+      },
+      {
+        "day": 7,
+        "period": "day",
+        "turns": 7,
+        "integrity": 4,
+        "api": 274,
+        "summary": "Raja Jerebu cleared."
+      }
+    ],
+    "stageStartIntegrity": 5,
+    "revision": 139,
+    "seed": 7,
+    "rng": 253024575,
+    "phase": "victory",
+    "encounter": "boss",
+    "turn": 7,
+    "board": [
+      {
+        "terrain": "tree",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "core",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "tree",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "vent",
+        "fire": 0,
+        "wet": 1,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "vent",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "house",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0,
+        "rescued": true
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "rock",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "tree",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 2,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 2,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "hydrant",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      },
+      {
+        "terrain": "ground",
+        "fire": 0,
+        "wet": 0,
+        "foam": 0
+      }
+    ],
+    "water": 2,
+    "capacity": 14,
+    "actions": 0,
+    "integrity": 4,
+    "api": 274,
+    "hazard": 0,
+    "coins": 180,
+    "fund": 54,
+    "hand": [
+      "wind",
+      "soak",
+      "foam"
+    ],
+    "draw": [
+      "burst",
+      "spray",
+      "foam",
+      "spray",
+      "soak",
+      "rescue"
+    ],
+    "discard": [
+      "spray",
+      "burst"
+    ],
+    "intent": {
+      "kind": "ember",
+      "tiles": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        1
+      ],
+      "rotated": false
+    },
+    "bossHP": 0,
+    "openUntil": 8,
+    "upgrades": [
+      "tower",
+      "kitchen",
+      "shelter"
+    ],
+    "shelter": true,
+    "campVisit": 6,
+    "purchaseMade": false,
+    "log": [
+      {
+        "crewId": "solo-crew",
+        "revision": 1,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 2,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            25
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 3,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 4,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 5,
+        "command": {
+          "type": "play",
+          "card": "foam",
+          "route": [
+            32,
+            31
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 6,
+        "command": {
+          "type": "play",
+          "card": "emergency",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 7,
+        "command": {
+          "type": "play",
+          "card": "emergency",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 8,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 9,
+        "command": {
+          "type": "buy",
+          "upgrade": "tower"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 10,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 11,
+        "command": {
+          "type": "play",
+          "card": "wind",
+          "route": []
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 12,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 13,
+        "command": {
+          "type": "play",
+          "card": "emergency",
+          "route": [
+            32,
+            26,
+            20,
+            14
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 14,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 15,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            21
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 16,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            27
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 17,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 18,
+        "command": {
+          "type": "play",
+          "card": "wind",
+          "route": []
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 19,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 20,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            33
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 21,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 22,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 23,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 24,
+        "command": {
+          "type": "play",
+          "card": "foam",
+          "route": [
+            32,
+            31,
+            30
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 25,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 26,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 27,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 28,
+        "command": {
+          "type": "buy",
+          "upgrade": "kitchen"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 29,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 30,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            25
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 31,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 32,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 33,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 34,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 35,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 36,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 37,
+        "command": {
+          "type": "buy",
+          "upgrade": "shelter"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 38,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 39,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            32,
+            26
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 40,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 41,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 42,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 43,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            32,
+            26
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 44,
+        "command": {
+          "type": "play",
+          "card": "rescue",
+          "route": [],
+          "target": 17
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 45,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 46,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 47,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 48,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 49,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 50,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 51,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            32,
+            26
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 52,
+        "command": {
+          "type": "play",
+          "card": "rescue",
+          "route": [],
+          "target": 17
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 53,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 54,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 55,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 56,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 57,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 58,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 59,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            32,
+            26
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 60,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 61,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 62,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            32,
+            26
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 63,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 64,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 65,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 66,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 67,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            35,
+            29,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 68,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 69,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 70,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 71,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 72,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            35,
+            29,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 73,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 74,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 75,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 76,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 77,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            35,
+            29,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 78,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 79,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 80,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 81,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 82,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 83,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 84,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 85,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 86,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            35,
+            29,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 87,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 88,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 89,
+        "command": {
+          "type": "play",
+          "card": "soak",
+          "route": [
+            35,
+            29,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 90,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            19,
+            18
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 91,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 92,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 93,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            9
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 94,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 95,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 96,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            9
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 97,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 98,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 99,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 100,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 101,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 102,
+        "command": {
+          "type": "play",
+          "card": "wind",
+          "route": []
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 103,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 104,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 105,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 106,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            21
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 107,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            27
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 108,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 109,
+        "command": {
+          "type": "play",
+          "card": "rescue",
+          "route": [],
+          "target": 17
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 110,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 111,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            33
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 112,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 113,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            27,
+            28
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 114,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 115,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 116,
+        "command": {
+          "type": "continue"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 117,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            7
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 118,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            9,
+            10
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 119,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 120,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            2
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 121,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            13
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 122,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 123,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            7
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 124,
+        "command": {
+          "type": "play",
+          "card": "emergency",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            13,
+            12
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 125,
+        "command": {
+          "type": "play",
+          "card": "rescue",
+          "route": [],
+          "target": 17
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 126,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 127,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            13,
+            12
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 128,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 129,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            9,
+            10
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 130,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 131,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            2
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 132,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            15
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 133,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 134,
+        "command": {
+          "type": "play",
+          "card": "emergency",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            7
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 135,
+        "command": {
+          "type": "refill"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 136,
+        "command": {
+          "type": "play",
+          "card": "emergency",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            7
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 137,
+        "command": {
+          "type": "end"
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 138,
+        "command": {
+          "type": "play",
+          "card": "spray",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            9,
+            10
+          ]
+        }
+      },
+      {
+        "crewId": "solo-crew",
+        "revision": 139,
+        "command": {
+          "type": "play",
+          "card": "burst",
+          "route": [
+            32,
+            26,
+            20,
+            14,
+            8,
+            2
+          ]
+        }
+      }
+    ],
+    "message": "Seven days. Six nights. One very soggy haze king. Kampung saved!"
+  }
+}

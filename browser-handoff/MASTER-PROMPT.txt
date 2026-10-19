@@ -1,0 +1,240 @@
+You are the lead game designer and engineer building an original, complete,
+playable browser game for Dblox: BAHAYA JEREBU! Working subtitle: Hose & Havoc.
+Read this entire prompt and the attached asset manifest before implementation.
+Deliver a functioning game, not a landing page, slideshow, or collection of
+buttons pretending to be gameplay. Work in a separate browser project. Do not
+edit, run, replace or publish the existing Roblox game.
+
+OWNER'S INTENT
+Create a browser-native interpretation of Bahaya Jerebu, playable without Roblox.
+The owner selected turn-based routes + cards instead of joystick movement.
+Keep the Malaysian tropical kampung/firefighter identity, haze pressure, rescue,
+day/night/camp rhythm, and upgrades. Add memorable original Jerebu boss fights.
+Use simple chunky purple/green cartoon visuals and playful absurdity: original
+goofy haze monsters with expressive reactions, not copied internet characters.
+
+DEFAULTS — PROVISIONAL, NOT ADDITIONAL OWNER APPROVALS
+Solo first. Mobile portrait plus desktop. English interface with short Bahasa
+Melayu labels such as Hari, Malam, Kem and Padam. A 10–15 minute introductory
+run is the target, to be tuned through playtesting. No real-time PvP, accounts,
+payments, ads or external services in the first implementation. Architect for
+later co-op but do not pretend local bots are network players.
+Use TypeScript + Vite + Phaser for the 2D board and effects, with accessible DOM
+menus/cards where practical. If the owner names a different builder, adapt the
+rendering layer without losing these mechanics. Pin tested compatible package
+versions, provide a lockfile and document exact setup commands.
+
+THE SIGNATURE MECHANIC: HOSE ROUTING
+The player does not walk an avatar. They manage a crew from a compact 6x6 board.
+Select a card, draw a hose from an active hydrant through adjacent tiles to its
+target, preview the full result, then confirm. The hose visibly carries water
+along the selected route and changes the board. Existing wet tiles reduce the
+cost of future routes. Routes, card combos and boss intent are the game.
+Support both drag routing and tap successive tiles. Right-click/Escape cancels;
+provide a visible touch Cancel button. Never require dragging as the only input.
+Nothing damages the player while they are thinking. Every enemy action is
+telegraphed before the player commits End Turn.
+
+PLAYABLE FIRST RELEASE
+First complete one authored tutorial encounter and one Raja Jerebu boss fight,
+with a Camp screen between them, win/loss, restart and a saved continuation.
+Then expand into the seven-encounter campaign using the same tested systems.
+Do not postpone a working boss behind a large unfinished content roadmap.
+
+SEVEN-ENCOUNTER CAMPAIGN TARGET
+Hari 1: learn routing, refill and dousing three ordinary fires.
+Hari 2: introduce wet-ground chains and one threatened house.
+Hari 3: Bara Bebola mini-boss, a single telegraphed ember-lane counter mechanic.
+Hari 4: peat that needs soaking on consecutive rounds; one rescue objective.
+Hari 5: a second hydrant and the Gambut Gempal mini-boss.
+Hari 6: combine wind, rescue and camp-upgrade choices.
+Hari 7: Raja Jerebu, two vents, exposed-core windows, escalating lane attacks.
+Malam is a short, one-round defense board between nonfinal encounters: no new
+deck, lower fire pressure, protect camp and collect a clear summary. Kem then
+offers one upgrade choice. Skip redundant screens in the first tutorial slice.
+An endless mode may follow only after the authored campaign works.
+
+RULES FOR THE FIRST IMPLEMENTATION
+Use these as explicit starting balance, not as empirically proven values.
+- Coordinates: row 0 is top, row 5 bottom, column 0 left. Cardinal adjacency.
+- Board terrain: ground, tree, rock, hydrant, house, peat and boss nozzle.
+  Fire, wet and foam are separate tile states, not conflicting terrain types.
+- Starting hydrant: (5,2). Start with 10 water (capacity 10), 3 actions/turn,
+  5 camp integrity, API 30, and zero Camp Fund. There is no moving avatar HP.
+  Reuse the heart icon for CAMP INTEGRITY, explicitly labelled as such.
+- One route begins at an active hydrant and has at most 8 edges. No diagonal
+  steps, repeated tiles, rocks or houses. An occupied fire/vent tile may be the
+  final target but not an intermediate tile. Source tile is free.
+- Route cost = card's base water + 1 per entered dry tile; entered wet tiles
+  cost 0. Display the exact total before confirming. Wet is boolean and does
+  not stack. Invalid routes consume nothing. Confirmed routes cannot be undone.
+- A successful water action wets its traversed ground and target for two enemy
+  resolutions, unless a stated boss attack dries them. Wet prevents ignition.
+- Any living fire has 2 HP initially; extinguishing awards 4 personal coins and
+  +1 Camp Fund, preserving the original 25% bonus concept. Personal coins are
+  the run score/cosmetic progression, not a second mandatory spending system.
+- Refill is ALWAYS available: spend 1 action, restore 5 water up to capacity.
+  It does not require drawing a card or a route. End Turn is always available.
+- Ordinary campaign encounters win when all fires are out and required rescues
+  are completed. Boss encounters win when boss HP reaches zero.
+- Lose at camp integrity 0 or API 301+ for two consecutive enemy resolutions.
+  Show the first hazardous strike as an explicit evacuation warning.
+- API is a game meter, not a medical simulation. Use the existing project's
+  display bands: 0–50 Good, 51–100 Moderate, 101–200 Unhealthy, 201–300 Very
+  Unhealthy, 301+ Hazardous. Preserve their blue/green/yellow/orange/red colors.
+  Each fire left alive adds 8 API per enemy resolution, each extinction removes
+  6 API. Clamp 0–500. A fully fire-free resolution removes another 10 API.
+- A house or camp target hit by an unblocked telegraphed attack loses 1 integrity.
+  Do not apply invisible adjacency damage as well. The preview must show damage.
+- No random spread surprises: generate the next enemy intent at the END of an
+  enemy resolution and display it throughout the next player planning phase.
+
+TURN RESOLUTION ORDER
+1. Start player turn: 3 actions, draw to 5 cards, show upcoming enemy intent.
+2. Player may route, confirm cards, refill, or end early. Previews do not mutate
+   state. Committing an action atomically validates then spends resources.
+3. End Turn locks input. Resolve the already-displayed enemy attack; foam/wet
+   counters apply. Compute fire/API/integrity changes and check loss.
+4. Decrement wet/foam duration AFTER it has protected against this resolution.
+   Remove expired effects. Resolve victory/encounter transition.
+5. If still playing, discard remaining hand and generate/display the NEXT enemy
+   intent. Return to step 1 to replenish actions and draw exactly once.
+   Newly added telegraphs never hit during the same resolution that creates them.
+Use a seeded PRNG and a deterministic pure rules engine so previews match play.
+
+STARTER DECK AND CARDS
+Deck: Spray x3, Burst Jet x2, Foam Line x2, Soak x2, Wind Turn x1, Rescue x1.
+Draw pile and discard are real. Played cards go to discard. When draw pile is
+empty, shuffle discard with the seeded PRNG; do not duplicate cards. Tutorial
+hands may be authored; label that as tutorial logic. Post-tutorial draws should
+be deterministic for the seed but varied between runs.
+
+Spray: 1 action, base water 0, route to target, deal 2 fire damage; cannot hit core.
+Burst Jet: 2 actions, base water 1, route, deal 4 fire/vent/core damage. Core only
+when exposed. One target, no hidden splash damage.
+Foam Line: 1 action, base water 1, route to empty tile; foam all route tiles for
+two resolutions. Blocks ignition and one ember impact per foamed tile, consuming
+that tile's foam on impact. It does not damage the boss directly.
+Soak: 1 action, base water 1, route to peat; suppresses peat and places a soaked
+marker. A second Soak on the immediately following player turn extinguishes it.
+Miss that turn and it reignites at 2 HP. Ordinary Spray can suppress peat for
+one turn but cannot award peat rewards or permanently clear it.
+Wind Turn: 1 action, no water, no route; rotate the announced directional ember
+attack 90 degrees clockwise. Preview affected tiles. A directional intent may
+be rotated once per turn, never repeatedly to erase the threat.
+Rescue: 1 action, no water; select one threatened house with a cardinal path of
+non-burning, non-rock tiles to an active hydrant (houses are allowed endpoints).
+Move its residents to safety in a short animation, complete that rescue, award
++2 Camp Fund. This is a finite objective, never repeatable farming.
+
+Keep an always-available 1-action Emergency Spray with route cost +1 base water
+and 1 damage as a fallback when the deck contains no useful water card. The
+normal Spray is more efficient. Prevent unwinnable hands without auto-winning.
+
+CAMP UPGRADES — WEB BALANCE, NOT ROBLOX PRICES
+Camp purchases are one-time per run, paid from the single Camp Fund; no timers.
+Water Tower, cost 3: +4 max water and +2 water per Refill, applied immediately.
+Field Kitchen, cost 3: restore 2 integrity now and 1 on each later camp visit,
+up to max 5. A repeated render/reload must not repeat the camp-visit heal.
+Rescue Shelter, cost 4: once per run prevent integrity loss below 1, then consume
+its rescue charge; show clearly whether the charge is ready or spent.
+Offer Skip. Grey out unaffordable upgrades with readable reason. Never require
+all upgrades to win. In the tutorial slice award a completion stipend so one
+upgrade is affordable; record it visibly, not as an unexplained balance change.
+
+RAJA JEREBU — A REAL BOSS WITH COUNTERPLAY
+An original goofy dark-purple cloud tyrant with expressive eyes and a lime core.
+The illustrated sprite is presentation, not the authoritative hitbox. Position
+it above the board with a labelled health/shield display, not over route tiles.
+Boss HP 12. Vents at (1,1) and (1,4), 2 HP each. Core nozzle at (0,2). Hydrant at
+(5,2); keep at least one legal route to each objective in every authored layout.
+Each turn announces the exact attack tiles and effect before player input.
+
+Closed core: while either vent is active, core damage is zero; invalid core shots
+must be rejected before spending. Extinguishing both vents opens the core NOW.
+Burst Jet routed to the nozzle then deals 4 core damage. The core stays open
+through the NEXT player turn, giving a guaranteed opportunity to draw/refill.
+At the end of that next player turn, relight both vents and close the core.
+Represent the window with an explicit turn counter, not animation duration.
+For the introductory boss hand sequence, ensure at least one Burst Jet is
+available during each opening; later encounters can use the normal deck.
+
+Cycle attacks: Ember Row (announced row, foam/wet counters), Dry Gust (announced
+column loses wet at resolution, no immediate fire damage), and Peat Pop (two
+announced eligible ground tiles ignite at resolution unless wet/foamed).
+One attack per enemy resolution. Below 6 HP, attack patterns cover one extra
+tile but remain fully announced; do not invalidate a turn already being planned.
+The boss cannot change a selected intent mid-turn because its HP crossed a
+threshold. No unavoidable full-board damage or pure HP sponge design.
+
+Give it a short goofy wind-up, a squash/stretch hit reaction, an angry puff at
+half HP and a comic deflation defeat. Use animation transforms/particles around
+the supplied static sprite; do not claim that one PNG is an animated sprite sheet.
+Original short optional lines: 'WHO TURNED ON THE TAP?!' and 'My majestic haze!'
+Subtitles and mute controls; no copyrighted meme sound clips or forced voice.
+
+VISUAL AND INTERACTION DIRECTION
+Use existing transparent icons as real art, never stretch them into backgrounds.
+Board: clean top-down or very shallow isometric perspective; prefer top-down
+for precise routing. Big simple tiles, no visual clutter or tiny detail.
+Purple #5B3D7D outlines, #A06CC6 buttons, green #45C653 confirmations, white panels,
+rounded corners, bold readable headings. Existing icons have chunky soft 3D
+shading. Draw card frames, live labels, board tiles, wet overlays, hose paths,
+health bars and telegraph stripes as crisp code-native UI/graphics.
+Existing tutorial people are illustrations, not extracted character sprites.
+Do not crop the stock ui-reference image or import it as a UI texture.
+Use a bundled properly licensed font if available, or a system rounded font.
+
+Mobile portrait layout: compact boss/intent at top, 6x6 board in middle, hand
+and action controls below. Allow a horizontally scrolling card hand with a tap
+detail view; card text must remain readable. At 360px width each board tile
+should remain comfortably tappable. Important controls at least 44px tall.
+Desktop: centered board with details alongside, not an enlarged empty dashboard.
+Show water/action costs, target HP changes and threatened tiles in the preview.
+Do not rely on color alone: icons/patterns/text for fire, wet, foam and intent.
+Animations 150–500ms, skippable/responsive, reduced-motion mode, no flashing.
+
+ASSET RULES
+Read assets/asset-manifest.json and assets/runtime-map.json. Copy only required
+runtime images into public/assets. Load from local paths, never rbxassetid://.
+Use 60-health-heart.png for integrity and 32-water-droplet.png for water.
+Use fire/peat/wind/hydrant icons and hose/upgrade art for relevant cards.
+Use the new Raja Jerebu art if included; otherwise show an explicitly labelled
+temporary haze icon while keeping the boss mechanics complete.
+Marketing art and health-bar preview are references/optional screens, not tiles.
+Premium/Robux-related icons are archived art, not instructions to add monetization.
+GLB camp models are optional; do not burden the 2D first build with a 3D engine.
+The original image set is large: create size-appropriate browser derivatives
+without overwriting originals; preserve alpha, aspect ratio and clear silhouettes.
+Target first playable transfer under 5 MB, load optional art later, and measure
+actual transfer size. Treat this as an engineering target, not an already met fact.
+Do not generate new paid assets or call external image/audio APIs silently.
+
+ENGINEERING AND SAVE REQUIREMENTS
+Separate pure game state, rules/reducer, encounter/card data, renderer and audio.
+All actions are typed commands validated centrally. UI previews call the same
+rules as execution. State changes never depend on frame rate or tween callbacks.
+Use explicit phases: loading, title, tutorial, playerTurn, enemyResolve, camp,
+victory, defeat. Disable duplicate commits while resolving.
+Save version, seed, PRNG state, turn, board, hand/draw/discard, resources, upgrades,
+boss window/intent and camp-visit identity at stable boundaries in localStorage.
+Resume must neither duplicate rewards nor reroll a hand. Handle corrupt saves
+with a clear recovery option. Offline save is device-local; do not imply cloud sync.
+Allow restart/new run without corrupting settings; include mute/reduced motion.
+For later co-op keep a serializable command log and player/crew ID fields. Do
+not implement networking, authentication or leaderboards in the first slice.
+Never store secrets in frontend code. Provide load-error fallback and a retry UI.
+
+DELIVERY AND QUALITY BAR
+Implement, run the build, test the actual browser interactions and fix defects.
+Test invalid routes, resource overspend, repeated confirm, deck exhaustion,
+effect expiry, boss shield timing, hazard warning/loss, wins and save/resume.
+Play the tutorial and beat the boss without developer cheats; record the seed
+and a concise move transcript. If balance makes this impossible, tune and report
+the changed values. A solver test alone is not a touch/usability playtest.
+Check 360x800 and a desktop viewport, touch/tap and keyboard, reduced motion,
+audio blocked until user gesture, missing assets and reload after camp purchase.
+Provide full source, README, setup/build commands, asset attribution/provenance,
+test results and known limits. Report what was actually run, never invent passes.
+Finish the playable slice before optional polish. If a capability is unavailable,
+state it clearly and leave a working fallback, not a fake screenshot of success.

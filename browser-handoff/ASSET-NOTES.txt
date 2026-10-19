@@ -1,0 +1,53 @@
+ASSET USE AND PROVENANCE
+
+Images under assets/images are the 61 original project PNGs, copied unchanged.
+They were generated for Bahaya Jerebu with the built-in image generator; source
+prompts are included under assets/reference. Existing original procedural GLB
+geometry was authored for the project; no third-party mesh/texture inputs were
+recorded. This describes provenance, not a guarantee of exclusive IP rights.
+
+assets/new/raja-jerebu.png is a new static boss illustration generated for this
+browser handoff using built-in image_gen. Its exact prompt is in the same folder.
+It has a transparent background. Animate position, scale, tint and separate
+code-rendered effects; it is not a rig or multi-frame animation sheet.
+
+RUNTIME VERSUS REFERENCES
+- HUD, hose, upgrade, mask and badge images are useful local UI/card icons.
+- API faces represent the environment's condition, not enemy sprites by default.
+- Tutorial scenes contain complete compositions, not isolated playable avatars.
+- Marketing art can serve title/loading backgrounds; do not tile it onto a board.
+- health/61-healthbar-preview.png is reference only; draw live bars with code.
+- Premium art is included for archival completeness, not a required cash shop.
+- Optional GLBs are assets, not a full map, scene, navigation graph or collision
+  setup. They are unnecessary for the recommended 2D gameplay prototype.
+- Existing stock ui-reference artwork is deliberately NOT redistributed.
+- Roblox Lua scripts, Roblox upload IDs, save data and private account settings
+  are deliberately NOT included; the new game must implement browser-native logic.
+
+ENOUGH TO BUILD THE FIRST PLAYABLE SLICE
+The supplied icons + boss are sufficient art for the tutorial and boss prototype
+when the board, hose routes, tile symbols, buttons, cards and effects are rendered
+in code. The pack is NOT a claim that all seven encounters have final art.
+
+FUTURE ART GAPS
+1. Bara Bebola mini-boss illustration: simple orange ember sphere, outsized eyes,
+   tiny puff arms, overconfident expression. Same purple outline and toy shading.
+2. Gambut Gempal mini-boss: squat rounded peat mound with a single glowing seam,
+   grumpy eyebrows and two stubby root arms. Same simple visual language.
+3. Bespoke crew portraits, isolated rescue tokens and optional boss expression
+   variants, if code-native tokens and transform animations prove insufficient.
+4. Original or properly licensed sound/music; none is supplied in this package.
+Do not extract borrowed internet meme characters or use unlicensed sound clips.
+
+WEB EXPORT GUIDANCE
+Original PNG dimensions are recorded in asset-manifest.json. Most square icons
+are 1254px, far larger than runtime UI needs. The implementer should create
+derivatives, typically 128–256px icons and 512–768px boss art, preserving alpha.
+Keep originals untouched and compare the derivatives visually. Load only the
+semantic assets selected by runtime-map.json; lazy-load optional title art.
+No browser-size conversion has been performed in this handoff. The ZIP is an
+authoring transfer package, not an optimized deployable website.
+
+PNG/GLB paths and SHA-256 hashes are verified when the pack is assembled. This
+does not replace actual browser rendering, gameplay tests or legal review of a
+future commercial release's full content and branding.

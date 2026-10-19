@@ -1,0 +1,47 @@
+GAMEPLAY DIRECTIONS FOR BAHAYA JEREBU
+
+1. HOSE ROUTES + CARDS — selected by the owner
+Draw a water route through a small board, play a firefighting card through it,
+then watch the boss's announced response. Wet ground makes later routes cheaper.
+The fun comes from setting up combinations, saving the village and outsmarting
+the boss, rather than walking to each fire. Tap-by-tap routing works as well as
+dragging. Best fit for deliberate mobile play, short runs and later co-op.
+Risk: too many numbers or repeated route drawing. Keep three actions per turn,
+short paths, instant previews and a replay-last-route shortcut.
+
+2. DRAG-AND-DROP CREW DISPATCH
+Drop a firefighter, pump and rescue team onto lanes. Teams act automatically;
+pause to reassign them before telegraphed boss attacks. Night becomes defense,
+camp becomes a compact build screen. More lively and spectator-friendly, but
+harder to balance and less comfortable on a small phone without pause.
+
+3. AIM-AND-RELEASE WATER CANNON
+Pull back to aim an arc of water. Bounce shots off wind currents, fill tanks,
+and hit boss vents. Each turn grants three shots. Very immediate and funny,
+with strong boss reactions. Physics tuning and precise touch aim are the risk.
+
+4. RHYTHM PUMP BATTLES
+Tap a short pump rhythm to charge water, then choose a target/counter card.
+Boss attacks introduce call-and-response patterns. Strong personality and audio
+identity, but audio-off play and accessibility need a parallel non-rhythm input.
+
+RECOMMENDED EXPERIENCE
+Working subtitle: Bahaya Jerebu! — Hose & Havoc.
+Tagline: Plan the hose. Soak the chaos. Save the kampung.
+
+Example turn:
+The boss announces a west-to-east ember gust. Draw a hose through two wet tiles
+to reach a vent cheaply. Play Foam Line to protect the threatened corridor.
+Use the last action to refill. The gust hits the foam instead of the village.
+Next turn, douse the second vent and use Burst Jet on the exposed boss core.
+
+Humor belongs in original monsters, expressions and short reactions:
+- Bara Bebola: an overconfident ember ball whose bounced attack can be blocked.
+- Gambut Gempal: a grumpy peat mound that needs repeated soaking, not one hit.
+- Raja Jerebu: a floating smoke tyrant who poses dramatically, then deflates
+  like a squeaky balloon when its core gets drenched.
+These are proposed original names, not a trademark clearance claim.
+
+Keep jokes brief and skippable. No scrolling meme text during planning, no
+borrowed viral character designs, no unlicensed meme audio, and no jokes at the
+expense of people experiencing haze or needing rescue.

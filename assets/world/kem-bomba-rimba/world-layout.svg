@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1080" viewBox="0 0 1400 1080">
+<rect width="1400" height="1080" fill="#142c30"/>
+<style>text{font-family:Arial,sans-serif;fill:#f3e7c7}.title{font-size:32px;font-weight:bold}.h{font-size:21px;font-weight:bold}.s{font-size:16px}.tiny{font-size:13px}</style>
+<text x="50" y="48" class="title">BAHAYA JEREBU · KEM BOMBA RIMBA</text>
+<text x="50" y="76" class="s">Proposed expedition layout · Existing 900 × 900 stud footprint · X/Z coordinates</text>
+<g transform="translate(50 110)">
+<rect width="900" height="900" rx="8" fill="#355e4a" stroke="#9ba984" stroke-width="2"/>
+<path d="M0 320H900" stroke="#61a8b8" stroke-width="34"/>
+<path d="M450 200V770M150 470H790" stroke="#b4a27e" stroke-width="14" fill="none"/>
+<rect x="285" y="342" width="330" height="263" fill="#a9ae7d" opacity=".55"/>
+<rect x="600" y="90" width="220" height="180" rx="30" fill="#705d42"/>
+<text x="620" y="126" class="h">PEAT SWAMP</text><text x="620" y="151" class="s">Smoulder / boardwalks</text>
+<path d="M375 245Q420 170 535 180T710 180M375 245Q280 235 230 160M230 160Q110 250 210 320M710 180Q770 285 680 320" stroke="#e6bf57" stroke-width="8" stroke-dasharray="14 8" fill="none"/>
+<rect x="330" y="205" width="90" height="80" rx="8" fill="#24887d" stroke="#f4c256" stroke-width="3"/>
+<text x="325" y="195" class="h">FORWARD CAMP</text><text x="333" y="247" class="tiny">(-75, -205)</text>
+<path d="M450 290V350" stroke="#ead1a2" stroke-width="14"/>
+<path d="M680 292V348M210 292V348" stroke="#e6bf57" stroke-width="9" stroke-dasharray="8 4"/>
+<circle cx="230" cy="160" r="23" fill="#b9573e"/><text x="130" y="116" class="h">HILL LOOKOUT</text>
+<text x="100" y="140" class="s">Tall trees / scout route</text>
+<rect x="388" y="394" width="44" height="32" fill="#b74434"/><text x="342" y="384" class="s">BOMBA / spawn</text>
+<rect x="315" y="455" width="30" height="110" fill="#414956"/><text x="185" y="495" class="s">Airstrip</text>
+<rect x="550" y="490" width="20" height="50" fill="#e3d3a0"/><text x="580" y="520" class="s">School</text>
+<text x="360" y="568" class="h">KAMPUNG HUB</text>
+<path d="M590 610Q740 610 740 740Q590 810 450 770" fill="none" stroke="#e6bf57" stroke-width="8" stroke-dasharray="14 8"/>
+<text x="560" y="681" class="h">VILLAGE FRINGE</text><text x="560" y="706" class="s">Palms / orchard / rescue</text>
+<path d="M230 85V15M810 180H885M15 470H90" stroke="#c5e1ad" stroke-width="5" fill="none"/>
+<text x="250" y="38" class="tiny">Future north sector</text><text x="673" y="61" class="tiny">Future east sector →</text>
+<text x="22" y="876" class="s">North = negative Roblox Z ↑</text><text x="630" y="876" class="s">Sketch; raycast placement in Studio</text>
+</g>
+<g transform="translate(995 145)">
+<text class="h">ONE SHARED HOME</text><text y="31" class="s">Station: spawn + personal gear</text><text y="57" class="s">Camp: supplies + team upgrades</text><text y="83" class="s">Forest: coordinated expeditions</text>
+<text y="146" class="h">BUILD IN THIS ORDER</text>
+<text y="183" class="s">1. Clear routes and crossings</text><text y="213" class="s">2. Camp and water landmark</text><text y="243" class="s">3. Peat + lookout loops</text><text y="273" class="s">4. Rescue / orchard region</text><text y="303" class="s">5. Expand through edge sockets</text>
+<text y="366" class="h">MULTIPLAYER SPACE</text><text y="403" class="s">Start testing with 4–6 players</text><text y="433" class="s">18–24 stud service corridors</text><text y="463" class="s">Two approaches per incident</text><text y="493" class="s">30-stud camp gathering court</text>
+<text y="556" class="h">LEGEND</text><path d="M0 590H45" stroke="#b4a27e" stroke-width="9"/><text x="60" y="596" class="s">Existing main paths</text>
+<path d="M0 630H45" stroke="#e6bf57" stroke-width="7" stroke-dasharray="9 5"/><text x="60" y="636" class="s">Proposed routes / crossings</text>
+<rect y="665" width="44" height="20" fill="#24887d"/><text x="60" y="681" class="s">Proposed camp</text>
+<text y="747" class="s">All proposed points are design</text><text y="771" class="s">targets, not installed gameplay.</text><text y="813" class="tiny">Report: reports/world-design-report.md</text>
+</g></svg>

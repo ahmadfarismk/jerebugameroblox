@@ -1,0 +1,1 @@
+-- Replaces Roblox's default health regen. Healing comes from JerebuServer (BOMBA station + clean air).

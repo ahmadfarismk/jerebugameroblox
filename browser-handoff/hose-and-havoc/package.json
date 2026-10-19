@@ -1,0 +1,24 @@
+{
+  "name": "bahaya-jerebu-hose-and-havoc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "assets": "python scripts/prepare_assets.py"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.51.0",
+    "@types/node": "22.13.4",
+    "prettier": "3.5.3",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3",
+    "vite": "6.1.0"
+  }
+}

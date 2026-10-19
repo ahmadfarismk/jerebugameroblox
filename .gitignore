@@ -1,0 +1,6 @@
+node_modules/
+*.zip
+*.rbxl.lock
+.DS_Store
+Thumbs.db
+__pycache__/

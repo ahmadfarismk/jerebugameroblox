@@ -1,0 +1,20 @@
+PLAYABLE BROWSER ACCEPTANCE
+[ ] New project; existing Roblox source and Studio place unchanged.
+[ ] Runs without Roblox account, asset URLs, services or client.
+[ ] Tutorial teaches drawing/tapping a route, preview, confirm, refill, End Turn.
+[ ] Dry and wet route costs differ correctly; invalid routes spend nothing.
+[ ] Shared pure rules keep preview and actual outcomes identical.
+[ ] Boss intent is visible before committing; a counter visibly changes outcome.
+[ ] All starter cards work, including deck/discard reshuffle without duplication.
+[ ] Emergency Spray and Refill prevent dead hands; loss remains possible.
+[ ] Raja Jerebu has functional vents, shield, core window and phase threshold.
+[ ] Both victory and defeat offer replay; boss can be beaten without cheats.
+[ ] Camp purchases spend once; reload cannot repeat kitchen heal or rewards.
+[ ] Save/resume retains deck, PRNG, boss intent and exact phase/turn state.
+[ ] No hidden night timer or joystick movement substitutes for turn-based routing.
+[ ] Works with tap-only input, keyboard, mute and reduced motion.
+[ ] Phone board/controls fit without hidden confirm/end-turn controls.
+[ ] Assets keep correct aspect ratio and alpha; labels remain live/selectable UI.
+[ ] Optional archives/GLBs are not in the initial download.
+[ ] Production build passes; tested browser/viewport and transfer bytes recorded.
+[ ] Failures, untested devices and incomplete artwork are explicitly documented.

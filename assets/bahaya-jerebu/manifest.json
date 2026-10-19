@@ -1,0 +1,429 @@
+[
+  {
+    "file": "api-faces/39-good.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.3968
+  },
+  {
+    "file": "api-faces/40-moderate.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.3848
+  },
+  {
+    "file": "api-faces/41-unhealthy.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.436
+  },
+  {
+    "file": "api-faces/42-very-unhealthy.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4583
+  },
+  {
+    "file": "api-faces/43-hazardous.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4646
+  },
+  {
+    "file": "badges/44-first-fire-out.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4406
+  },
+  {
+    "file": "badges/45-peat-hunter.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4655
+  },
+  {
+    "file": "badges/46-clear-skies.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4852
+  },
+  {
+    "file": "badges/47-cloud-seeder.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4593
+  },
+  {
+    "file": "badges/48-seven-days-survived.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4196
+  },
+  {
+    "file": "badges/49-full-squad.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4048
+  },
+  {
+    "file": "gear/13-cloth-mask.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.6422
+  },
+  {
+    "file": "gear/14-surgical-mask.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5835
+  },
+  {
+    "file": "gear/15-n95.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5402
+  },
+  {
+    "file": "gear/16-respirator.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5505
+  },
+  {
+    "file": "gear/17-fire-helmet.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5728
+  },
+  {
+    "file": "health/60-health-heart.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4525
+  },
+  {
+    "file": "health/61-healthbar-preview.png",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5232
+  },
+  {
+    "file": "hoses/07-starter-hose.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5423
+  },
+  {
+    "file": "hoses/08-brass-jet.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5321
+  },
+  {
+    "file": "hoses/09-twin-jet.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5485
+  },
+  {
+    "file": "hoses/10-foam-cannon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5873
+  },
+  {
+    "file": "hoses/11-hydro-pack.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5323
+  },
+  {
+    "file": "hoses/12-storm-cannon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5418
+  },
+  {
+    "file": "hud/31-currency-coin.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.518
+  },
+  {
+    "file": "hud/32-water-droplet.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.6209
+  },
+  {
+    "file": "hud/33-fire-marker.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.513
+  },
+  {
+    "file": "hud/34-peat-marker.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.543
+  },
+  {
+    "file": "hud/35-hydrant-marker.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4767
+  },
+  {
+    "file": "hud/36-cloud-seeding-marker.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4627
+  },
+  {
+    "file": "hud/37-mask-warning.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.497
+  },
+  {
+    "file": "hud/38-wind-arrow.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.6314
+  },
+  {
+    "file": "marketing/50-game-icon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "transparent_fraction": 0
+  },
+  {
+    "file": "marketing/51-thumbnail-kampung.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "transparent_fraction": 0
+  },
+  {
+    "file": "marketing/52-thumbnail-cloud-seeding.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "transparent_fraction": 0
+  },
+  {
+    "file": "marketing/53-thumbnail-fire-truck.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "transparent_fraction": 0
+  },
+  {
+    "file": "marketing/54-menu-background.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "transparent_fraction": 0
+  },
+  {
+    "file": "premium/21-godspeed.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5758
+  },
+  {
+    "file": "premium/22-infinite-tank.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4841
+  },
+  {
+    "file": "premium/23-bomba-fire-truck.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.3799
+  },
+  {
+    "file": "premium/24-vip-bomba.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5171
+  },
+  {
+    "file": "premium/25-double-coins.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4957
+  },
+  {
+    "file": "premium/26-coins-small.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5042
+  },
+  {
+    "file": "premium/27-coins-medium.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4975
+  },
+  {
+    "file": "premium/28-coins-large.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4037
+  },
+  {
+    "file": "premium/29-call-the-rain.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4885
+  },
+  {
+    "file": "premium/30-server-boost.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5603
+  },
+  {
+    "file": "rides/18-bicycle.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.48
+  },
+  {
+    "file": "rides/19-kapcai.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4754
+  },
+  {
+    "file": "rides/20-fire-truck.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.3908
+  },
+  {
+    "file": "tutorial/55-spot-smoke.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4297
+  },
+  {
+    "file": "tutorial/56-spray-fire.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5035
+  },
+  {
+    "file": "tutorial/57-refill-water.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5147
+  },
+  {
+    "file": "tutorial/58-soak-peat.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5385
+  },
+  {
+    "file": "tutorial/59-wear-mask.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.6276
+  },
+  {
+    "file": "upgrades/01-bomba-boots.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5431
+  },
+  {
+    "file": "upgrades/02-water-pressure.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4995
+  },
+  {
+    "file": "upgrades/03-water-tank.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.4647
+  },
+  {
+    "file": "upgrades/04-long-nozzle.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.7224
+  },
+  {
+    "file": "upgrades/05-fast-pump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.482
+  },
+  {
+    "file": "upgrades/06-strong-lungs.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparent_fraction": 0.5204
+  }
+]

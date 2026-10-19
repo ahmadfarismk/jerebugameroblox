@@ -1,0 +1,66 @@
+{
+  "parts": 40,
+  "placements_blender": {
+    "01_CommandPavilion": [
+      -30.0,
+      10.0,
+      0.0
+    ],
+    "02_WaterTower": [
+      0.0,
+      20.0,
+      0.0
+    ],
+    "03_SupplyKiosk": [
+      22.0,
+      14.0,
+      0.0
+    ],
+    "04_RescueShelter": [
+      23.0,
+      -9.0,
+      0.0
+    ],
+    "05_Boardwalk_12x10": [
+      -8.0,
+      -10.0,
+      0.0
+    ],
+    "06_Railing_12": [
+      -8.0,
+      -20.0,
+      0.0
+    ],
+    "07_LookoutTower": [
+      -32.0,
+      -24.0,
+      0.0
+    ],
+    "08_TrailSign": [
+      9.0,
+      -8.0,
+      0.0
+    ],
+    "09_ButtressTree": [
+      47.0,
+      23.0,
+      0.0
+    ],
+    "10_Palm": [
+      45.0,
+      -3.0,
+      0.0
+    ],
+    "11_PeatStump": [
+      10.0,
+      -24.0,
+      0.0
+    ],
+    "12_RiverRocks": [
+      24.0,
+      -27.0,
+      0.0
+    ]
+  },
+  "source_hashes_verified": true
+}

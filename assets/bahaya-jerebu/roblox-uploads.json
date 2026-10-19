@@ -1,0 +1,307 @@
+[
+  {
+    "file": "api-faces/39-good.png",
+    "key": "APIGood",
+    "asset": "rbxassetid://95923543585117"
+  },
+  {
+    "file": "api-faces/40-moderate.png",
+    "key": "APIModerate",
+    "asset": "rbxassetid://115215170814606"
+  },
+  {
+    "file": "api-faces/41-unhealthy.png",
+    "key": "APIUnhealthy",
+    "asset": "rbxassetid://116838010956719"
+  },
+  {
+    "file": "api-faces/42-very-unhealthy.png",
+    "key": "APIVeryUnhealthy",
+    "asset": "rbxassetid://78242322328476"
+  },
+  {
+    "file": "api-faces/43-hazardous.png",
+    "key": "APIHazardous",
+    "asset": "rbxassetid://76770529687900"
+  },
+  {
+    "file": "badges/44-first-fire-out.png",
+    "key": "BadgeFirstFire",
+    "asset": "rbxassetid://89262629806078"
+  },
+  {
+    "file": "badges/45-peat-hunter.png",
+    "key": "BadgePeat",
+    "asset": "rbxassetid://87173107468670"
+  },
+  {
+    "file": "badges/46-clear-skies.png",
+    "key": "BadgeClearSkies",
+    "asset": "rbxassetid://137768520274657"
+  },
+  {
+    "file": "badges/47-cloud-seeder.png",
+    "key": "BadgeCloudSeeder",
+    "asset": "rbxassetid://88168355201404"
+  },
+  {
+    "file": "badges/48-seven-days-survived.png",
+    "key": "BadgeSevenDays",
+    "asset": "rbxassetid://140475002245947"
+  },
+  {
+    "file": "badges/49-full-squad.png",
+    "key": "BadgeFullSquad",
+    "asset": "rbxassetid://136398612782096"
+  },
+  {
+    "file": "gear/13-cloth-mask.png",
+    "key": "Mask1",
+    "asset": "rbxassetid://96370441721447"
+  },
+  {
+    "file": "gear/14-surgical-mask.png",
+    "key": "Mask2",
+    "asset": "rbxassetid://98626295485869"
+  },
+  {
+    "file": "gear/15-n95.png",
+    "key": "Mask3",
+    "asset": "rbxassetid://137733754624089"
+  },
+  {
+    "file": "gear/16-respirator.png",
+    "key": "Mask4",
+    "asset": "rbxassetid://116187174682145"
+  },
+  {
+    "file": "gear/17-fire-helmet.png",
+    "key": "Helmet",
+    "asset": "rbxassetid://126883305417009"
+  },
+  {
+    "file": "health/60-health-heart.png",
+    "key": "Heart",
+    "asset": "rbxassetid://103193119266139"
+  },
+  {
+    "file": "health/61-healthbar-preview.png",
+    "key": "HealthPreview",
+    "asset": "rbxassetid://137053632214448"
+  },
+  {
+    "file": "hoses/07-starter-hose.png",
+    "key": "Hose1",
+    "asset": "rbxassetid://120265029803069"
+  },
+  {
+    "file": "hoses/08-brass-jet.png",
+    "key": "Hose2",
+    "asset": "rbxassetid://71934561191308"
+  },
+  {
+    "file": "hoses/09-twin-jet.png",
+    "key": "Hose3",
+    "asset": "rbxassetid://115539101722593"
+  },
+  {
+    "file": "hoses/10-foam-cannon.png",
+    "key": "Hose4",
+    "asset": "rbxassetid://105012431341975"
+  },
+  {
+    "file": "hoses/11-hydro-pack.png",
+    "key": "Hose5",
+    "asset": "rbxassetid://117920110435819"
+  },
+  {
+    "file": "hoses/12-storm-cannon.png",
+    "key": "Hose6",
+    "asset": "rbxassetid://117869425261912"
+  },
+  {
+    "file": "hud/31-currency-coin.png",
+    "key": "Coin",
+    "asset": "rbxassetid://131252849700717"
+  },
+  {
+    "file": "hud/32-water-droplet.png",
+    "key": "Water",
+    "asset": "rbxassetid://90801669324588"
+  },
+  {
+    "file": "hud/33-fire-marker.png",
+    "key": "Fire",
+    "asset": "rbxassetid://106108039547067"
+  },
+  {
+    "file": "hud/34-peat-marker.png",
+    "key": "Peat",
+    "asset": "rbxassetid://129482495255026"
+  },
+  {
+    "file": "hud/35-hydrant-marker.png",
+    "key": "Hydrant",
+    "asset": "rbxassetid://72894292268114"
+  },
+  {
+    "file": "hud/36-cloud-seeding-marker.png",
+    "key": "CloudSeeding",
+    "asset": "rbxassetid://73937471497800"
+  },
+  {
+    "file": "hud/37-mask-warning.png",
+    "key": "MaskWarning",
+    "asset": "rbxassetid://122842035576336"
+  },
+  {
+    "file": "hud/38-wind-arrow.png",
+    "key": "Wind",
+    "asset": "rbxassetid://87764954955779"
+  },
+  {
+    "file": "marketing/50-game-icon.png",
+    "key": "GameIcon",
+    "asset": "rbxassetid://138215984879070"
+  },
+  {
+    "file": "marketing/51-thumbnail-kampung.png",
+    "key": "ThumbnailKampung",
+    "asset": "rbxassetid://138938171501960"
+  },
+  {
+    "file": "marketing/52-thumbnail-cloud-seeding.png",
+    "key": "ThumbnailSeeding",
+    "asset": "rbxassetid://134658028370432"
+  },
+  {
+    "file": "marketing/53-thumbnail-fire-truck.png",
+    "key": "ThumbnailTruck",
+    "asset": "rbxassetid://85909909514705"
+  },
+  {
+    "file": "marketing/54-menu-background.png",
+    "key": "MenuBackground",
+    "asset": "rbxassetid://103206874110963"
+  },
+  {
+    "file": "premium/21-godspeed.png",
+    "key": "Godspeed",
+    "asset": "rbxassetid://112425881433787"
+  },
+  {
+    "file": "premium/22-infinite-tank.png",
+    "key": "InfiniteTank",
+    "asset": "rbxassetid://109314198953861"
+  },
+  {
+    "file": "premium/23-bomba-fire-truck.png",
+    "key": "PremiumTruck",
+    "asset": "rbxassetid://114158609415719"
+  },
+  {
+    "file": "premium/24-vip-bomba.png",
+    "key": "VIP",
+    "asset": "rbxassetid://112534046881863"
+  },
+  {
+    "file": "premium/25-double-coins.png",
+    "key": "DoubleCoins",
+    "asset": "rbxassetid://98043018151843"
+  },
+  {
+    "file": "premium/26-coins-small.png",
+    "key": "Coins1",
+    "asset": "rbxassetid://91246268862205"
+  },
+  {
+    "file": "premium/27-coins-medium.png",
+    "key": "Coins2",
+    "asset": "rbxassetid://110513291756557"
+  },
+  {
+    "file": "premium/28-coins-large.png",
+    "key": "Coins3",
+    "asset": "rbxassetid://73394063028708"
+  },
+  {
+    "file": "premium/29-call-the-rain.png",
+    "key": "CallRain",
+    "asset": "rbxassetid://85822586450146"
+  },
+  {
+    "file": "premium/30-server-boost.png",
+    "key": "ServerBoost",
+    "asset": "rbxassetid://117624302310745"
+  },
+  {
+    "file": "rides/18-bicycle.png",
+    "key": "Bicycle",
+    "asset": "rbxassetid://85827336350432"
+  },
+  {
+    "file": "rides/19-kapcai.png",
+    "key": "Kapcai",
+    "asset": "rbxassetid://119440785822685"
+  },
+  {
+    "file": "rides/20-fire-truck.png",
+    "key": "Truck",
+    "asset": "rbxassetid://79909561449614"
+  },
+  {
+    "file": "tutorial/55-spot-smoke.png",
+    "key": "TutorialSmoke",
+    "asset": "rbxassetid://133021122349376"
+  },
+  {
+    "file": "tutorial/56-spray-fire.png",
+    "key": "TutorialSpray",
+    "asset": "rbxassetid://112660733466777"
+  },
+  {
+    "file": "tutorial/57-refill-water.png",
+    "key": "TutorialRefill",
+    "asset": "rbxassetid://125938901136866"
+  },
+  {
+    "file": "tutorial/58-soak-peat.png",
+    "key": "TutorialPeat",
+    "asset": "rbxassetid://84781903561963"
+  },
+  {
+    "file": "tutorial/59-wear-mask.png",
+    "key": "TutorialMask",
+    "asset": "rbxassetid://90158663312898"
+  },
+  {
+    "file": "upgrades/01-bomba-boots.png",
+    "key": "Boots",
+    "asset": "rbxassetid://91652352337306"
+  },
+  {
+    "file": "upgrades/02-water-pressure.png",
+    "key": "Pressure",
+    "asset": "rbxassetid://86101764563441"
+  },
+  {
+    "file": "upgrades/03-water-tank.png",
+    "key": "Tank",
+    "asset": "rbxassetid://101163767576606"
+  },
+  {
+    "file": "upgrades/04-long-nozzle.png",
+    "key": "Range",
+    "asset": "rbxassetid://73598866480674"
+  },
+  {
+    "file": "upgrades/05-fast-pump.png",
+    "key": "Pump",
+    "asset": "rbxassetid://128172332340210"
+  },
+  {
+    "file": "upgrades/06-strong-lungs.png",
+    "key": "Lungs",
+    "asset": "rbxassetid://84596198228292"
+  }
+]

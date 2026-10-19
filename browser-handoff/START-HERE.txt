@@ -1,0 +1,44 @@
+BAHAYA JEREBU! — browser concept + builder handoff
+Prepared for Dblox, 19 October 2026.
+
+This is a new browser-game design and asset package, not a playable port.
+The Roblox game and its source have not been changed for this handoff.
+
+APPROVED: turn-based routes + cards instead of joystick walking.
+PROVISIONAL: solo first; mobile/desktop browser; goofy original haze monsters;
+Phaser + TypeScript + Vite as the implementation stack. Change these if the
+owner specifies a builder, co-op requirement or different level of humor.
+
+HOW TO USE
+1. Give your coding assistant MASTER-PROMPT.txt and this whole folder.
+2. Ask it to read assets/asset-manifest.json and assets/runtime-map.json first.
+3. Have it build the small playable encounter and first boss BEFORE expanding
+   the campaign, accounts, networking or monetization.
+4. Use ACCEPTANCE-CHECKLIST.txt to judge the result. A menu mockup is not a game.
+
+WHAT IS INCLUDED
+- MASTER-PROMPT.txt: self-contained implementation brief with gameplay rules,
+  sample cards, boss counters, visual direction, technical constraints and tests.
+- GAMEPLAY-OPTIONS.txt: alternatives and why routes + cards is recommended.
+- assets/images/: all 61 existing original PNGs, unchanged.
+- assets/new/: the new Raja Jerebu boss illustration, when generation succeeds.
+- assets/models/: 12 original GLB camp/tree assets, optional for future 3D use.
+- assets/reference/: camp-kit preview and original generation prompts.
+- assets/asset-manifest.json: relative paths, sizes, dimensions and SHA-256 hashes.
+- assets/runtime-map.json: semantic roles for the actual prototype.
+- ASSET-NOTES.txt: assets versus references, missing production art, size guidance.
+
+Original PNGs total about 74 MB. This is an AUTHORING package, not a browser
+download budget. Do not preload the whole package in the game. The builder
+should create appropriately sized browser derivatives and lazy-load scene art.
+Do not load GLB models in the recommended 2D prototype.
+
+The full health-bar image is a visual reference only. Render the health fill,
+card text, costs, board tiles and buttons live in code. Never use Roblox asset
+URLs or require Roblox login to display these local images.
+
+Framework reference checked 19 October 2026:
+https://docs.phaser.io/phaser/getting-started/what-is-phaser
+Phaser supports 2D browser games with WebGL/Canvas across desktop/mobile.
+This handoff does not pin an unverified future package version. Select and lock
+compatible stable versions when implementation starts.

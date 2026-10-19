@@ -1,0 +1,318 @@
+{
+  "method": "Blender 5.2 reimport of every FBX and GLB; exact source triangle count, finite bounds, dimension tolerance 0.01 units",
+  "roblox_import_tested": false,
+  "results": [
+    {
+      "file": "01_CommandPavilion.fbx",
+      "bytes": 23100,
+      "sha256": "4214634185f48977684ac43e2f2f1a05ac4c5a316f03a0e85719852c2ec37672",
+      "triangles": 228,
+      "reimport_dimensions": [
+        27.200000762939453,
+        22.070483207702637,
+        15.845003896527146
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "01_CommandPavilion.glb",
+      "bytes": 21212,
+      "sha256": "a32ec52611148091c314ffcf0f1138850ad17e9c5b097be3372c558ec89a2cba",
+      "triangles": 228,
+      "reimport_dimensions": [
+        27.200000762939453,
+        22.070480346679688,
+        15.845000267028809
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "02_WaterTower.fbx",
+      "bytes": 22156,
+      "sha256": "3cd915bd2fa9e870dcf5e8e2f33c296edda48276eeea6199d9c95b790e0092b7",
+      "triangles": 196,
+      "reimport_dimensions": [
+        11.0,
+        9.000003814697266,
+        22.500000733142997
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "02_WaterTower.glb",
+      "bytes": 16952,
+      "sha256": "08db9131b2ab062a701c14ca3b96204bb85791e1ba53d363aa5177664ef098f5",
+      "triangles": 196,
+      "reimport_dimensions": [
+        11.0,
+        9.0,
+        22.5
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "03_SupplyKiosk.fbx",
+      "bytes": 21868,
+      "sha256": "77582e589531879b8b9b2fa79a63c3f962c8e32096c0bc3c158a7fcd4dfca48d",
+      "triangles": 216,
+      "reimport_dimensions": [
+        14.200000286102295,
+        11.140960693359375,
+        11.145002318984211
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "03_SupplyKiosk.glb",
+      "bytes": 19844,
+      "sha256": "164f2017acb3aadc5df9ab1ff06c565940513bb12043f84040fe5e9502b9cc7d",
+      "triangles": 216,
+      "reimport_dimensions": [
+        14.200000286102295,
+        11.140958786010742,
+        11.145000457763672
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "04_RescueShelter.fbx",
+      "bytes": 20764,
+      "sha256": "b4c8e90759e41e1b1616e55013f7f68b1805878e9a952d7d3a501db8bc10739c",
+      "triangles": 216,
+      "reimport_dimensions": [
+        19.200000762939453,
+        17.220480918884277,
+        12.025003712940816
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "04_RescueShelter.glb",
+      "bytes": 18916,
+      "sha256": "6fa4eeaa4310fd09e3b48f77def50a129625525712be9dc9eba52850cb7d1a4e",
+      "triangles": 216,
+      "reimport_dimensions": [
+        19.200000762939453,
+        17.220479011535645,
+        12.02500057220459
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "05_Boardwalk_12x10.fbx",
+      "bytes": 17356,
+      "sha256": "cbf51c20052389b3d6256641454e6035b8eace2a9a7550dcb6d67330afa05dab",
+      "triangles": 120,
+      "reimport_dimensions": [
+        12.0,
+        10.0,
+        1.125001683831215
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "05_Boardwalk_12x10.glb",
+      "bytes": 10472,
+      "sha256": "b684d63fc0a81ad8118d4a9b6e29f98a6c7ecc13df4cfd6abfd801b67f55969b",
+      "triangles": 120,
+      "reimport_dimensions": [
+        12.0,
+        10.0,
+        1.1250000298023224
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "06_Railing_12.fbx",
+      "bytes": 16780,
+      "sha256": "ecc81f51e12c33fe8f94cbbff0701b85f4fb9184db6599648c1fb72c2568b706",
+      "triangles": 60,
+      "reimport_dimensions": [
+        12.5,
+        0.5000006556510925,
+        4.000000040730168
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "06_Railing_12.glb",
+      "bytes": 6212,
+      "sha256": "8e5f6104e944677491c050f7f11ced17386adbbe37228f9434c3318ff1761a37",
+      "triangles": 60,
+      "reimport_dimensions": [
+        12.5,
+        0.5,
+        4.0
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "07_LookoutTower.fbx",
+      "bytes": 24540,
+      "sha256": "43a8ae94fe4216764be169527270bf77d1236cabcf563d2f3fee0e90555b9a5f",
+      "triangles": 564,
+      "reimport_dimensions": [
+        18.600000381469727,
+        16.070483207702637,
+        25.525002910704643
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "07_LookoutTower.glb",
+      "bytes": 43324,
+      "sha256": "69f572388d3ed7bc6e95e1570ae43abd6ad79700167146b9f6f362a9ed6e2f8c",
+      "triangles": 564,
+      "reimport_dimensions": [
+        18.600000381469727,
+        16.07047939300537,
+        25.524999618530273
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "08_TrailSign.fbx",
+      "bytes": 19180,
+      "sha256": "ea61d2b9f16578f6cab2d95b3dc4c2ca279d56be340dbc9074abc0bf9c7def8f",
+      "triangles": 64,
+      "reimport_dimensions": [
+        6.0,
+        0.9000012874603271,
+        8.000000073314297
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "08_TrailSign.glb",
+      "bytes": 7644,
+      "sha256": "dcd7cdf60bf772f757f0ef63fd33815410d3f151f7b387383b7bd759cebbffe6",
+      "triangles": 64,
+      "reimport_dimensions": [
+        6.0,
+        0.8999999761581421,
+        8.0
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "09_ButtressTree.fbx",
+      "bytes": 21164,
+      "sha256": "708284522f088c4e0324299e4c4338568258e462901c0b057e2da857c0d17605",
+      "triangles": 164,
+      "reimport_dimensions": [
+        18.21257781982422,
+        15.33627700805664,
+        26.00000313062094
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "09_ButtressTree.glb",
+      "bytes": 16464,
+      "sha256": "372ed4896d4517dc3048357f6e0b476c42817fcfbb7da79150f5ae5456a46678",
+      "triangles": 164,
+      "reimport_dimensions": [
+        18.21257781982422,
+        15.336272716522217,
+        26.0
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "10_Palm.fbx",
+      "bytes": 18316,
+      "sha256": "3806bf39ab92f9d49a28a096304f1d9a95cdaaa5d879ea67add7f52283c30932",
+      "triangles": 112,
+      "reimport_dimensions": [
+        15.9787015914917,
+        16.389626502990723,
+        16.655434989889386
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "10_Palm.glb",
+      "bytes": 9692,
+      "sha256": "e48218bf9b502cdde9426e9f74041ce1bf9634b23c56002e7cb2bc7c3d880a35",
+      "triangles": 112,
+      "reimport_dimensions": [
+        15.9787015914917,
+        16.389623641967773,
+        16.655431747436523
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "11_PeatStump.fbx",
+      "bytes": 19180,
+      "sha256": "c53771e3f8f2126c12af63580cfd2481a39fe48da341ebf4ee5d89e0c419a21c",
+      "triangles": 120,
+      "reimport_dimensions": [
+        7.024912357330322,
+        7.657753229141235,
+        5.519455403089523
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "11_PeatStump.glb",
+      "bytes": 12264,
+      "sha256": "3376a4bafd2fbddce872d25e6438d41114100f3ae1aae497dc71022382fc308d",
+      "triangles": 120,
+      "reimport_dimensions": [
+        7.024912357330322,
+        7.657752275466919,
+        5.51945424079895
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "12_RiverRocks.fbx",
+      "bytes": 16524,
+      "sha256": "6c648b28c958dbefaadf1cf9a541a202004b70fc8d8869a52b797caf29fd2f98",
+      "triangles": 60,
+      "reimport_dimensions": [
+        8.398814678192139,
+        6.083072900772095,
+        6.000001072883606
+      ],
+      "mesh_count": 1,
+      "passed": true
+    },
+    {
+      "file": "12_RiverRocks.glb",
+      "bytes": 7328,
+      "sha256": "10d9f14e7692b95e7445277474fbfac9e89bb00c338ae0fcabb08a383cdde646",
+      "triangles": 60,
+      "reimport_dimensions": [
+        8.398814678192139,
+        6.083071947097778,
+        6.0
+      ],
+      "mesh_count": 1,
+      "passed": true
+    }
+  ]
+}

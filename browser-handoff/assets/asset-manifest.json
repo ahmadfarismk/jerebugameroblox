@@ -1,0 +1,659 @@
+{
+  "title": "Bahaya Jerebu browser authoring handoff",
+  "date": "2026-10-19",
+  "runtimeMap": "assets/runtime-map.json",
+  "files": [
+    {
+      "path": "assets/images/api-faces/39-good.png",
+      "bytes": 1311848,
+      "sha256": "282df312a5dcf17aaf84c5d10becf1ea081891cc070ea963188130deb5bf1699",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/api-faces/40-moderate.png",
+      "bytes": 1311135,
+      "sha256": "1c9928efd05aeeb5945c03f5f029176306a5a95813438df0963b1bc7ca9ef78f",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/api-faces/41-unhealthy.png",
+      "bytes": 1222835,
+      "sha256": "3e8e860f4b7461fd19f0fe09467f3f5921158bb33e348fae19a749a2abefcf02",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/api-faces/42-very-unhealthy.png",
+      "bytes": 1232447,
+      "sha256": "e93bc16c2a699d89eb21eb4eb2e0004574b9afce110fbf1c6ef5026a9837d0f3",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/api-faces/43-hazardous.png",
+      "bytes": 1163178,
+      "sha256": "26ac99bee3f55dc3c6ef1502c603a0491872e743fb8ffb0e36725dfeaa54e7dd",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/badges/44-first-fire-out.png",
+      "bytes": 1289454,
+      "sha256": "8f9ebf775b5d749ceb079904eda0984eb722e078b1acda46929884f16b5350e4",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/badges/45-peat-hunter.png",
+      "bytes": 1205888,
+      "sha256": "16352b2b429cf5c50fe93f30aa529ce71dc2cc174bd8a9ea225f5c5fd48ae9ce",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/badges/46-clear-skies.png",
+      "bytes": 1096591,
+      "sha256": "86c92c6437fc858052bbb3b902109448a4313de75941c25f8fb2a682fb2c0fab",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/badges/47-cloud-seeder.png",
+      "bytes": 1317505,
+      "sha256": "5687c1238eb8764a7c90fc1ffc1df3c1da9b0987fe24d746f01f89973681eefa",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/badges/48-seven-days-survived.png",
+      "bytes": 1286539,
+      "sha256": "b1b95a9b6c1b71c60cd1435da7b902f95607160e04fa555330421cdaa0fd9327",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/badges/49-full-squad.png",
+      "bytes": 1405312,
+      "sha256": "e8bec60c2809d38c116e529ed645db9733c2dc22cf041c606fd3207fc2b851ad",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/gear/13-cloth-mask.png",
+      "bytes": 791862,
+      "sha256": "4ccd8fb5144a5d357b7cd6e97ffbf2c7c8fcdbb7e905d25dd9ee3aee411ab4cf",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/gear/14-surgical-mask.png",
+      "bytes": 881292,
+      "sha256": "226dd628b4707ded04566ee8996a94e3bbf2bac92fa283bebea4be374d3acab3",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/gear/15-n95.png",
+      "bytes": 1049916,
+      "sha256": "4838431941e55f42020b4aac9b0930235a80d0d0db826089712d91c160720914",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/gear/16-respirator.png",
+      "bytes": 1092836,
+      "sha256": "116226dd8fa7836593de7cc08e6bc3d5c6cad1b5ca370781ebdf988f56869c78",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/gear/17-fire-helmet.png",
+      "bytes": 961755,
+      "sha256": "90f1ab144fced913ea26e9932cede89987d98dc28155edfb1146826f95d7b1a4",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/health/60-health-heart.png",
+      "bytes": 1034492,
+      "sha256": "e1ac861f26730b0e7bcf4d2e34953e2bcff7db8aedd42e91c4317b0d184dd49a",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/health/61-healthbar-preview.png",
+      "bytes": 964787,
+      "sha256": "16610e5150dd2c6729939484b90b0a4f431014b0428be4f40c1c8aafd197a3a0",
+      "width": 2172,
+      "height": 724,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hoses/07-starter-hose.png",
+      "bytes": 1084765,
+      "sha256": "b2852215109b38e354ae58ab810fce6106cde935883579149c92e8f7943705f3",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hoses/08-brass-jet.png",
+      "bytes": 1147541,
+      "sha256": "851f4762b9fcb7fcf69b2449de0793f633b238b76fc16bfbac8985dad73e98f9",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hoses/09-twin-jet.png",
+      "bytes": 1184500,
+      "sha256": "ddfb9c12fdd7989b15a2548a6f92b180b4c08ad8751bed34a9e66500ab0bce85",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hoses/10-foam-cannon.png",
+      "bytes": 985553,
+      "sha256": "6a7ef648b3ab1b5fa44874eaa08c78b9432dfc3268bbef34d0608cdc39f25c7b",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hoses/11-hydro-pack.png",
+      "bytes": 1138402,
+      "sha256": "59253adad88d19738bb439c788ebffcd32d8cc5142abf28b136b7819d84e34c6",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hoses/12-storm-cannon.png",
+      "bytes": 1191291,
+      "sha256": "d23c00f5525f59f35058137ef8dba97b65ebf93942506999dd9c61f7462e27fb",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/31-currency-coin.png",
+      "bytes": 1000897,
+      "sha256": "3d9e10c30983afe3a50873f8d86cd207e9a355d46104c3dd22986f7840ce8cbc",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/32-water-droplet.png",
+      "bytes": 789449,
+      "sha256": "34480b612c9ee9811c4d0bfb2cf36554cae442445c0e9dc5a3c44b3a8963be99",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/33-fire-marker.png",
+      "bytes": 1036081,
+      "sha256": "2abcdd605f09e477bac27fa8e36d475b00daa6f50c1893679612124665c3c3df",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/34-peat-marker.png",
+      "bytes": 1004472,
+      "sha256": "83b47910d34acbf41b8932691b5913173cd1063902febda36baf932c5bae1845",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/35-hydrant-marker.png",
+      "bytes": 1135552,
+      "sha256": "69577dde2488269b6086fe0b59a55234356acc4b661de4e1ecf5534aa3ab2a23",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/36-cloud-seeding-marker.png",
+      "bytes": 1151969,
+      "sha256": "37ed3711f38e77e4be393dcbdafd0ce04503a61ce2aebd5f66a354cfadaa85fb",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/37-mask-warning.png",
+      "bytes": 1081271,
+      "sha256": "3cc06046d3ae6bcbe6ce9559aee6b6c8ef39a03d210641e46dc33f7188e29981",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/hud/38-wind-arrow.png",
+      "bytes": 849560,
+      "sha256": "50ad201d330833a6a6bbdfc3809496b2227ba4b6cfedc7cf5582ae63ddf9509d",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/marketing/50-game-icon.png",
+      "bytes": 1872114,
+      "sha256": "c696e9955da8b93cf205f92b8e6fc0bcbb39041f9ff12b027ddb6d4e939a6e95",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 2,
+      "hasAlphaChannel": false
+    },
+    {
+      "path": "assets/images/marketing/51-thumbnail-kampung.png",
+      "bytes": 2127409,
+      "sha256": "c9336cd9e234c539db2e3dd6563f7f68adc651ff6cd947c5d73dedbe4074800c",
+      "width": 1672,
+      "height": 941,
+      "pngColorType": 2,
+      "hasAlphaChannel": false
+    },
+    {
+      "path": "assets/images/marketing/52-thumbnail-cloud-seeding.png",
+      "bytes": 1949102,
+      "sha256": "bc483a22a5eac730bb2d5b2c5d540ba7bf3fe78b2ba97e363c44a2c69041d53d",
+      "width": 1672,
+      "height": 941,
+      "pngColorType": 2,
+      "hasAlphaChannel": false
+    },
+    {
+      "path": "assets/images/marketing/53-thumbnail-fire-truck.png",
+      "bytes": 1879895,
+      "sha256": "2bd0086b9593636356f0ab92c29a90c227906fa6c47e1aaa1fc5e613a8183080",
+      "width": 1672,
+      "height": 941,
+      "pngColorType": 2,
+      "hasAlphaChannel": false
+    },
+    {
+      "path": "assets/images/marketing/54-menu-background.png",
+      "bytes": 2016834,
+      "sha256": "6725e354f627695dba6a85c1f532f50ed25bd8a8847e8540356b8b8b367a901d",
+      "width": 1672,
+      "height": 941,
+      "pngColorType": 2,
+      "hasAlphaChannel": false
+    },
+    {
+      "path": "assets/images/premium/21-godspeed.png",
+      "bytes": 1073644,
+      "sha256": "dd40396701f7ec4af9b447f0130d556dd16bbb6858a66ef36f807168f8280a69",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/22-infinite-tank.png",
+      "bytes": 1263031,
+      "sha256": "147263472d7e835fc305184be61c62285e166dda08be601db65c961a7f31c5bb",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/23-bomba-fire-truck.png",
+      "bytes": 1514772,
+      "sha256": "13961d136ab3f5794d6fc97f7bf906569bad31b0baa765d100bfb5a34f7913b3",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/24-vip-bomba.png",
+      "bytes": 1127855,
+      "sha256": "bc9ba934cef0973c7321b781da72050df5d4e415b15f8472487de04cc9fd8fd3",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/25-double-coins.png",
+      "bytes": 1120393,
+      "sha256": "d8a7a660d416f98c4b90e19d82f9c727ed43d1a586c11005ee324c993a4ed0c7",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/26-coins-small.png",
+      "bytes": 1103660,
+      "sha256": "ab80bd69f690255ad87bd00d75d4985377434943d2312a6e481c8570c5c0298f",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/27-coins-medium.png",
+      "bytes": 1170241,
+      "sha256": "cc36cd664b40fafb1973abb5875e05ac3c6fa0506d17ba0d6a28b32767c1a8f6",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/28-coins-large.png",
+      "bytes": 1377963,
+      "sha256": "96e39bd05532b9221167071098dd7da54d98427bc6b289a84fe0224a0be9fc2b",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/29-call-the-rain.png",
+      "bytes": 1342794,
+      "sha256": "670dfc6402b193b7615c43830b1ebf9a17457e458aa23ed0de46be8ce2699d9b",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/premium/30-server-boost.png",
+      "bytes": 1158508,
+      "sha256": "42e83594fb0cf4fdaf0f05c42deffdb8c879e822bf451df2b21bd9ba6b087234",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/rides/18-bicycle.png",
+      "bytes": 1351149,
+      "sha256": "c724a7c37b0e363637a4960b18bae9a7aacc65388aa28fa430b6beca66f7c81a",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/rides/19-kapcai.png",
+      "bytes": 1328038,
+      "sha256": "281ff8e954088ec51368693111abfbf2d5e5a93e21a4a0bd16d5b49f1d4fbf44",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/rides/20-fire-truck.png",
+      "bytes": 1359015,
+      "sha256": "bd605fd68255c7517082e805f18118478aedcf583752c18f44a92d2a4d72cdca",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/tutorial/55-spot-smoke.png",
+      "bytes": 1396439,
+      "sha256": "ae27301fa767dcb7b96a6f57903c79f9d24ebebb6126c3ffbf1da2ae751c7724",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/tutorial/56-spray-fire.png",
+      "bytes": 1297405,
+      "sha256": "ba9a2ebe713a0397bfcf4610a91e6c0fb995d97fd18de6f2409f9fd73187e6e7",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/tutorial/57-refill-water.png",
+      "bytes": 1222371,
+      "sha256": "fdb8b1a6201d7d3229a5541f144b827f2e71afaacb09fad8eaf4fa12d348790c",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/tutorial/58-soak-peat.png",
+      "bytes": 1208403,
+      "sha256": "5c2c3ecc4ae7d3b35002af0a75aad5495a37f9d0bcd9cfb09da76b36357700d2",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/tutorial/59-wear-mask.png",
+      "bytes": 952821,
+      "sha256": "dde223f16a01c37eab3e6052bb881ac5f522aaccf6fb027221f81256c9bebfbf",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/upgrades/01-bomba-boots.png",
+      "bytes": 1079787,
+      "sha256": "77c2382efa04f45f65470ca07cafcd921ce877e1ab63daf31391f1d665f6f110",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/upgrades/02-water-pressure.png",
+      "bytes": 1185452,
+      "sha256": "0d301db98fb84ca30f98097bf7d975a348e6222bc3d50ce328551892b26863b1",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/upgrades/03-water-tank.png",
+      "bytes": 1175448,
+      "sha256": "ad80f7f43e4a3584625fbf21d81f8e5a918c944d88ff328c869f7f4cb453d21a",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/upgrades/04-long-nozzle.png",
+      "bytes": 737744,
+      "sha256": "d2034ffcf16b4e513bff151c11088d9473433195a1f30d588d0814df429cda39",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/upgrades/05-fast-pump.png",
+      "bytes": 1175289,
+      "sha256": "24acb28cec438235e58acd589e4e2c00be0b2b926803ff3772f67593e6205597",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/images/upgrades/06-strong-lungs.png",
+      "bytes": 1065366,
+      "sha256": "e29e9b1167be8c90a2d309763d18ab4fdfc860efa989a2bb1cfc62d0918b2d97",
+      "width": 1254,
+      "height": 1254,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/models/01_CommandPavilion.glb",
+      "bytes": 21212,
+      "sha256": "a32ec52611148091c314ffcf0f1138850ad17e9c5b097be3372c558ec89a2cba"
+    },
+    {
+      "path": "assets/models/02_WaterTower.glb",
+      "bytes": 16952,
+      "sha256": "08db9131b2ab062a701c14ca3b96204bb85791e1ba53d363aa5177664ef098f5"
+    },
+    {
+      "path": "assets/models/03_SupplyKiosk.glb",
+      "bytes": 19844,
+      "sha256": "164f2017acb3aadc5df9ab1ff06c565940513bb12043f84040fe5e9502b9cc7d"
+    },
+    {
+      "path": "assets/models/04_RescueShelter.glb",
+      "bytes": 18916,
+      "sha256": "6fa4eeaa4310fd09e3b48f77def50a129625525712be9dc9eba52850cb7d1a4e"
+    },
+    {
+      "path": "assets/models/05_Boardwalk_12x10.glb",
+      "bytes": 10472,
+      "sha256": "b684d63fc0a81ad8118d4a9b6e29f98a6c7ecc13df4cfd6abfd801b67f55969b"
+    },
+    {
+      "path": "assets/models/06_Railing_12.glb",
+      "bytes": 6212,
+      "sha256": "8e5f6104e944677491c050f7f11ced17386adbbe37228f9434c3318ff1761a37"
+    },
+    {
+      "path": "assets/models/07_LookoutTower.glb",
+      "bytes": 43324,
+      "sha256": "69f572388d3ed7bc6e95e1570ae43abd6ad79700167146b9f6f362a9ed6e2f8c"
+    },
+    {
+      "path": "assets/models/08_TrailSign.glb",
+      "bytes": 7644,
+      "sha256": "dcd7cdf60bf772f757f0ef63fd33815410d3f151f7b387383b7bd759cebbffe6"
+    },
+    {
+      "path": "assets/models/09_ButtressTree.glb",
+      "bytes": 16464,
+      "sha256": "372ed4896d4517dc3048357f6e0b476c42817fcfbb7da79150f5ae5456a46678"
+    },
+    {
+      "path": "assets/models/10_Palm.glb",
+      "bytes": 9692,
+      "sha256": "e48218bf9b502cdde9426e9f74041ce1bf9634b23c56002e7cb2bc7c3d880a35"
+    },
+    {
+      "path": "assets/models/11_PeatStump.glb",
+      "bytes": 12264,
+      "sha256": "3376a4bafd2fbddce872d25e6438d41114100f3ae1aae497dc71022382fc308d"
+    },
+    {
+      "path": "assets/models/12_RiverRocks.glb",
+      "bytes": 7328,
+      "sha256": "10d9f14e7692b95e7445277474fbfac9e89bb00c338ae0fcabb08a383cdde646"
+    },
+    {
+      "path": "assets/new/raja-jerebu-prompt.txt",
+      "bytes": 1348,
+      "sha256": "ff89ad5880a1b86e71d534372da307414801ccc99e3b2bf4d3d31ce353ad9b3b"
+    },
+    {
+      "path": "assets/new/raja-jerebu.png",
+      "bytes": 1351553,
+      "sha256": "d65e92600c1aec37b73b4735ffd4e6a8c289e9f391be48b6c7b629e1d1850248",
+      "width": 1312,
+      "height": 1199,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/reference/camp-kit-preview.png",
+      "bytes": 1907965,
+      "sha256": "a31ea834d95826980ed16d4623ed1b8bae25f110db32aab7a90e1020bed987bd",
+      "width": 1600,
+      "height": 1200,
+      "pngColorType": 6,
+      "hasAlphaChannel": true
+    },
+    {
+      "path": "assets/reference/camp-model-source-manifest.json",
+      "bytes": 3804,
+      "sha256": "cca602f456895ef77be65b35388674c3acee6d88e91fec4719e0cabeeda03da0"
+    },
+    {
+      "path": "assets/reference/health-image-prompts.json",
+      "bytes": 1968,
+      "sha256": "b7befa88fcaf3fb76e95b63d1e604181526aa52f25f3b48e7edefb816bc07d96"
+    },
+    {
+      "path": "assets/reference/original-image-prompts.json",
+      "bytes": 72907,
+      "sha256": "61644d8d4d09e93abfb42efe36e8cdfda1c7f3deac487dd2cb3193de6f7fc7fd"
+    },
+    {
+      "path": "assets/runtime-map.json",
+      "bytes": 1426,
+      "sha256": "0b8f03902771835690ea38188b6da01d8b118bb8455f512fa0a274b1fad74c6e"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "title": "Kem Bomba Rimba",
+  "authoring": "Original procedural geometry authored for Bahaya Jerebu; no third-party asset inputs",
+  "units": "Intended 1 unit = 1 stud; confirm 12-unit boardwalk in importer",
+  "assets": [
+    {
+      "name": "01_CommandPavilion",
+      "triangles": 228,
+      "dimensions": [
+        27.2,
+        22.07,
+        15.845
+      ],
+      "materials": 6,
+      "pivot": "ground center",
+      "files": [
+        "01_CommandPavilion.fbx",
+        "01_CommandPavilion.glb"
+      ]
+    },
+    {
+      "name": "02_WaterTower",
+      "triangles": 196,
+      "dimensions": [
+        11.0,
+        9.0,
+        22.5
+      ],
+      "materials": 5,
+      "pivot": "ground center",
+      "files": [
+        "02_WaterTower.fbx",
+        "02_WaterTower.glb"
+      ]
+    },
+    {
+      "name": "03_SupplyKiosk",
+      "triangles": 216,
+      "dimensions": [
+        14.2,
+        11.141,
+        11.145
+      ],
+      "materials": 5,
+      "pivot": "ground center",
+      "files": [
+        "03_SupplyKiosk.fbx",
+        "03_SupplyKiosk.glb"
+      ]
+    },
+    {
+      "name": "04_RescueShelter",
+      "triangles": 216,
+      "dimensions": [
+        19.2,
+        17.22,
+        12.025
+      ],
+      "materials": 4,
+      "pivot": "ground center",
+      "files": [
+        "04_RescueShelter.fbx",
+        "04_RescueShelter.glb"
+      ]
+    },
+    {
+      "name": "05_Boardwalk_12x10",
+      "triangles": 120,
+      "dimensions": [
+        12.0,
+        10.0,
+        1.125
+      ],
+      "materials": 2,
+      "pivot": "ground center",
+      "files": [
+        "05_Boardwalk_12x10.fbx",
+        "05_Boardwalk_12x10.glb"
+      ]
+    },
+    {
+      "name": "06_Railing_12",
+      "triangles": 60,
+      "dimensions": [
+        12.5,
+        0.5,
+        4.0
+      ],
+      "materials": 2,
+      "pivot": "ground center",
+      "files": [
+        "06_Railing_12.fbx",
+        "06_Railing_12.glb"
+      ]
+    },
+    {
+      "name": "07_LookoutTower",
+      "triangles": 564,
+      "dimensions": [
+        18.6,
+        16.07,
+        25.525
+      ],
+      "materials": 4,
+      "pivot": "ground center",
+      "files": [
+        "07_LookoutTower.fbx",
+        "07_LookoutTower.glb"
+      ]
+    },
+    {
+      "name": "08_TrailSign",
+      "triangles": 64,
+      "dimensions": [
+        6.0,
+        0.9,
+        8.0
+      ],
+      "materials": 4,
+      "pivot": "ground center",
+      "files": [
+        "08_TrailSign.fbx",
+        "08_TrailSign.glb"
+      ]
+    },
+    {
+      "name": "09_ButtressTree",
+      "triangles": 164,
+      "dimensions": [
+        18.213,
+        15.336,
+        26.0
+      ],
+      "materials": 3,
+      "pivot": "ground center",
+      "files": [
+        "09_ButtressTree.fbx",
+        "09_ButtressTree.glb"
+      ]
+    },
+    {
+      "name": "10_Palm",
+      "triangles": 112,
+      "dimensions": [
+        15.979,
+        16.39,
+        16.655
+      ],
+      "materials": 2,
+      "pivot": "ground center",
+      "files": [
+        "10_Palm.fbx",
+        "10_Palm.glb"
+      ]
+    },
+    {
+      "name": "11_PeatStump",
+      "triangles": 120,
+      "dimensions": [
+        7.025,
+        7.658,
+        5.519
+      ],
+      "materials": 2,
+      "pivot": "ground center",
+      "files": [
+        "11_PeatStump.fbx",
+        "11_PeatStump.glb"
+      ]
+    },
+    {
+      "name": "12_RiverRocks",
+      "triangles": 60,
+      "dimensions": [
+        8.399,
+        6.083,
+        6.0
+      ],
+      "materials": 1,
+      "pivot": "ground center",
+      "files": [
+        "12_RiverRocks.fbx",
+        "12_RiverRocks.glb"
+      ]
+    }
+  ],
+  "triangle_total": 2120
+}
