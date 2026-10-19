@@ -9,6 +9,7 @@
 See [Codex progress and Claude handoff](reports/codex-progress-handoff.md) for completed image/UI integration, the imported Kem Bomba Rimba world, save confirmation, test evidence and outstanding work. World changes are saved to Roblox. Six-client join/refill smoke testing passed; see reports/six-player-playtest.md for limits. Changing the server limit from 60 to 6 remains blocked by Firefox automation support.
 
 This folder holds the whole game, so the place can be rebuilt from files at any time.
+New developers: start with [GAME_OVERVIEW.md](GAME_OVERVIEW.md) for what the game is and where things stand.
 
 ## Layout
 | File | Becomes in Studio |
